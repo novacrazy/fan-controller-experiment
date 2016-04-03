@@ -526,10 +526,10 @@ void setup() {
   dht.setup();
   display.setup();
 
-  touch.setInterval(10);
-  door.setInterval(10);
+  touch.setInterval(20);
+  door.setInterval(50);
   dht.setInterval(2000);
-  logic.setInterval(10);
+  logic.setInterval(25);
   relay.setInterval(25);
   display.setInterval(1000 / 60);
 
